@@ -7,7 +7,7 @@ export default function Input(props) {
     <div class=" mt-3 flex justify-center">
       <form class=" ">
         <div class="mb-4 flex items-center">
-          <label class=" text-gray-700 text-1xl font-mono mr-6 mt-6 ">
+          <label class=" text-gray-700 text-1xl font-mono mr-6 mt-6 text-center">
             ListTrade
           </label>
           <input
@@ -26,7 +26,7 @@ export default function Input(props) {
 
 Input.propTypes = {
   label: PropTypes.string,
-  input: PropTypes.string,
+  // input: PropTypes.string,
   id: PropTypes.string,
   placeholder: PropTypes.string,
 };
